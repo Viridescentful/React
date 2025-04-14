@@ -41,24 +41,26 @@ const Home = () => {
   return (
     <>
       <h2>My Media</h2>
+      <h2>My Media</h2>
       <table>
         <thead>
-        {mediaArray.map((item) => (
-          <MediaRow key={item.media_id} item={item} />
-        ))}
+        <tr>
+          <th>Thumbnail</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Created</th>
+          <th>Size</th>
+          <th>Type</th>
+          <th>Operations</th>
+        </tr>
         </thead>
         <tbody>
         {mediaArray.map((item) => (
-          <tr key={item.media_id}>
-            <td>
-              <img src={item.thumbnail} alt={item.title} />
-            </td>
-            <td>{item.title}</td>
-            <td>{item.description}</td>
-            <td>{new Date(item.created_at).toLocaleString('fi-FI')}</td>
-            <td>{item.filesize}</td>
-            <td>{item.media_type}</td>
-          </tr>
+          <MediaRow
+            key={item.media_id}
+            item={item}
+            setSelectedItem={setSelectedItem}
+          />
         ))}
         </tbody>
       </table>
