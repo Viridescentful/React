@@ -1,1 +1,1 @@
-Open [Routing](https://users.metropolia.fi/~valttejo/routing/) to view it in the browser
+Open [Custom Hooks](https://users.metropolia.fi/~valttejo/custom-hooks/) to view it in the browser
