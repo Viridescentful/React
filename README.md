@@ -1,1 +1,1 @@
-Open [Upload](https://users.metropolia.fi/~valttejo/upload/) to view it in the browser
+Open [Tailwind](https://users.metropolia.fi/~valttejo/tailwind/) to view it in the browser
