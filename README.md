@@ -1,1 +1,1 @@
-Open [Upload](https://users.metropolia.fi/~valttejo/upload/) to view it in the browser
+Open [Forms](https://users.metropolia.fi/~valttejo/forms/) to view it in the browser
